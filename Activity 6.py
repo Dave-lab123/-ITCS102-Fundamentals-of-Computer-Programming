@@ -1,17 +1,6 @@
-money_to_deposit= int(input("Enter the amount of money to deposit: "))
-onekbill= (money_to_deposit//1000)
-remain1=(money_to_deposit%1000)
-fivehbill=(remain1//500)
-remain2=(remain1%500)
-twohbill=(remain2//200)
-remain3=(remain2%200)
-onehbill=(remain3//100)
-remain4=(remain3%100)
-piptibill=(remain4//50)
-remain5=(remain4%50)
-bentebill=(remain5//20)
-remain6=(remain5%20)
-ten=(remain6//10)
-remain7=(remain6%10)
-piso=(remain7//1)
-print("The person wants to deposit",onekbill,"one thousand bills,",fivehbill,"five hundrend bills,",twohbill,"two hundred bill,",onehbill,"one hundred bills,",piptibill,"fifty bills,",bentebill,"twenty bills and",ten, "ten peso coins and,",piso,"peso")1
+#dynamic , static
+#dynamic - ever changing
+#static - fixed
+
+name = input("Enter your name: ")
+print("Hello ", name)
